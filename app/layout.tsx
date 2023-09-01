@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} flex flex-col flex-nowrap sm:text-[1.25rem] text-[2rem]`}>{children}</body>
     </html>
   )
 }
